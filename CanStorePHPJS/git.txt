@@ -1,0 +1,2 @@
+git config --global user.name "Banaban"
+git config --global user.email alban.le_pape@gretacotesarmor.fr

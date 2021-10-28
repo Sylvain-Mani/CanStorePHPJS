@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>The Can Store</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Cherry+Swash|Raleway" rel="stylesheet">
+  <link href="can-style.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="icons/boite-de-conserve.png" />
+  <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <header>
+    <h1><a href="index.html">Au jardin en boite</a></h1>
+  </header>
+  <div>
+    <aside>
+      <form>
+        <div>
+          <label for="category">Catégorie :</label>
+          <select id="category">
+            <option selected="">Tous</option>
+            <option>Legumes</option>
+            <option>Viande</option>
+            <option>Soupe</option>
+          </select>
+        </div>
+        <div>
+          <label for="nutriscore">Nutriscore :</label>
+          <select id="nutriscore">
+            <option selected="">Tous</option>
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+            <option>D</option>
+            <option>E</option>
+          </select>
+        </div>
+        <div>
+          <label for="searchTerm">Recherche :</label>
+          <input type="text" id="searchTerm" placeholder="ex : Petits pois">
+        </div>
+        <div>
+          <button>GO !</button>
+        </div>
+      </form>
+    </aside>
+    <main></main>
+  </div>
+  <footer>
+    <p>TP BOUTIQUE (AJAX – JSON) passage à PHP</a><br>
+
+      A partir des fichiers fournis, vous êtes chargé de :<br>
+    </p><ol>
+      <li>Créer un fichier produits.php qui renvoie les données JSON</li>
+      <li>Dans le JS intégrer un nouveau fetch qui charge ce fichier à chaque recherche</li>
+      <li>Créer et peupler la base BD correspondant au Json</li>
+      <li>Modifier produits.php pour requêter les données sur la BD et les renvoyer en Json</li>
+      <li>Créer et peupler la base BD correspondant au Json</li>
+      <li>Dans le JS modifier le nouveau fetch pour qu’il envoie les choix du formulaire client au fichier produits.php</li>
+      <li>Modifier produits.php pour qu’il ne renvoie que les données qui correspondent aux choix du client.</li>
+    </ol>
+    <p></p>
+  </footer>
+  <script src="can-script.js"></script>
+
+
+</body>
+
+</html>
